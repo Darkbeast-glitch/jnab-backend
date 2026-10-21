@@ -91,7 +91,7 @@ LOGGING = {
         },
         "django.db.backends": {
             "handlers": ["console"],
-            "level": "DEBUG",  # Log all SQL queries
+            "level": "WARNING",  # Set to DEBUG temporarily to log all SQL queries
             "propagate": False,
         },
     },
