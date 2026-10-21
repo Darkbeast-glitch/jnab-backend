@@ -1,5 +1,16 @@
+# Core Django
 asgiref==3.12.1
 Django==6.1.2
 django-cors-headers==4.9.0
 djangorestframework==3.18.3
 sqlparse==0.6.0
+
+# Static files (WhiteNoise serves static files without a separate server)
+whitenoise==6.9.0
+
+# Production database (PostgreSQL) — comment out if using SQLite only
+# psycopg2-binary==2.9.10
+# dj-database-url==2.3.0
+
+# Environment variable loading
+python-decouple==3.8
