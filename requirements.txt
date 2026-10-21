@@ -14,3 +14,4 @@ whitenoise==6.9.0
 
 # Environment variable loading
 python-decouple==3.8
+python-dotenv==1.0.1
